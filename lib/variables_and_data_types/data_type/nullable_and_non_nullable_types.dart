@@ -19,15 +19,16 @@ int? value;
 int number = 0;
 // print("$number"); nó sẽ trả về giá trị 0;
 
-String? name = "Messi";
+String? name = "ronaldo";
 String? elementName = name?[0]; // in ra "M";
 
 String? fruit;
 String? elementFruit = fruit?[0]; // in ra null;
 
 // toán tử !
-String? nullableString = "Hahahha";
-String nonNullableString = nullableString!; // sử dụng toán tử này để bỏ qua giá trị null của nullableString
+String? nullableString = "hehehehehe";
+String nonNullableString =
+    nullableString!; // sử dụng toán tử này để bỏ qua giá trị null của nullableString
 
 // toán tử as
 
