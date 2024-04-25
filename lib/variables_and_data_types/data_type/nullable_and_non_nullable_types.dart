@@ -16,7 +16,7 @@ void checkName() {
 int? value;
 
 // Print("$value"); trường hợp này nó sẽ trả về null vì value không có giá trị
-int number = 0;
+int number = 10;
 // print("$number"); nó sẽ trả về giá trị 0;
 
 String? name = "em pa pe";
