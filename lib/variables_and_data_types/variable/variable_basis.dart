@@ -30,13 +30,9 @@ void main() {
     [Toppings('ô liu'), Toppings('bột mì')]
   ];
   for (List<Toppings> topping in pizza) {
-    doSomething(topping);
-  }
-}
-
-void doSomething(List<Toppings> topping) {
-  for (Toppings t in topping) {
-    print(t.name);
+    for (var e in topping) {
+      print(e.name);
+    }
   }
 }
 
@@ -50,11 +46,13 @@ void mains() {
     eat(Core);
   }
 }
+
 void eat(List<Cores> Core) {
   for (Cores c in Core) {
     print(c.names);
   }
 }
+
 class Cores {
   String names;
   Cores(this.names);
