@@ -19,7 +19,7 @@ int? value;
 int number = 0;
 // print("$number"); nó sẽ trả về giá trị 0;
 
-String? name = "ronaldo";
+String? name = "em pa pe";
 String? elementName = name?[0]; // in ra "M";
 
 String? fruit;
