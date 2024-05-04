@@ -17,6 +17,7 @@ class Person {
 }
 
 void ps() {
+  // ignore: unused_local_variable
   for (var pss in name) {
     for (var e in name) {
       print('Name: ${e.name}, Age: ${e.age}');

@@ -33,7 +33,7 @@ void myName() {
 
 // for
 void loop() {
-  var value = "";
+  // var value = "";
   var sum = 0;
   for (var i = 0; i < 10; i++) {
     sum += i;
@@ -69,9 +69,9 @@ void enums() {
 enum Colors { orange, red, blue, grey }
 
 void listed() {
-  var a = Colors.orange.index;
+  // var a = Colors.orange.index;
   var b = Colors.blue.index;
-  var c = Colors.grey.index;
+  // var c = Colors.grey.index;
   print(b);
 }
 

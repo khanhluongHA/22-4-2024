@@ -1,5 +1,4 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
-// toán tử is
+
 class Animal {
   void makeSound() {
     print("void make a sound");
@@ -20,7 +19,6 @@ class Cat extends Animal {
 
 void checkDog() {
   Animal cat = Cat();
-  Animal animal = Dog();
   if (cat is Cat) {
     cat.chirp();
   } else {
@@ -38,7 +36,6 @@ class Shape {
 class Circle extends Shape {
   double radius;
   Circle(this.radius); // tạo constructor
-  @override
   void circleArea() {
     double area = 3.14 * radius * radius;
     print("diện tích hình tròn là: $area");
@@ -49,7 +46,6 @@ class Rectangle extends Shape {
   double length;
   double width;
   Rectangle(this.length, this.width);
-  @override
   void rectangleArea() {
     double recArea = length * width;
     print("diện tích hình chữ nhật là: $recArea");

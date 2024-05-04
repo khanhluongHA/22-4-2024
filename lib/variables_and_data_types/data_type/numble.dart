@@ -1,5 +1,5 @@
 //number:
-import 'package:flutter_tutorial/variables_and_data_types/variable/variable_basis.dart';
+// import 'package:flutter_tutorial/variables_and_data_types/variable/variable_basis.dart';
 
 var a = 10;
 var b = 20;
@@ -51,10 +51,9 @@ void stringConcatenation() {
 
 // nếu chuỗi không phải một số thì val là null
 double? val = double.tryParse(
-    "120.3x"); // dauble tryParse là một chuỗi chuyển sang dạng số thực nếu nó không phải số thì là null
+    "120.3x"); // double tryParse là một chuỗi chuyển sang dạng số thực nếu nó không phải số thì là null
 double? yes = double.tryParse(
     "123.321"); // 123.321 là một number hợp lệ nên tryParse sẽ chuyển nó thành số thực và yes sẽ gán giá trị đó
-
 // hàm check lỗi onError
 
 
