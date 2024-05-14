@@ -10,7 +10,15 @@
 
 // import 'package:flutter_tutorial/inheritance_and_exceptions/extension_methods/extension_methods.dart';
 // import 'package:flutter_tutorial/inheritance_and_exceptions/exceptions/finally.dart';
-import 'package:flutter_tutorial/inheritance_and_exceptions/exceptions/good_practices.dart';
+// import 'package:flutter_tutorial/generics_and_collections/generic_types/introductions.dart';
+// import 'package:flutter_tutorial/generics_and_collections/generic_types/type_safety.dart';
+// import 'package:flutter_tutorial/generics_and_collections/collections/list/collection_statements.dart';
+// import 'package:flutter_tutorial/generics_and_collections/collections/list/implementation.dart';
+// import 'package:flutter_tutorial/generics_and_collections/collections/map/implementation.dart';
+import 'package:flutter_tutorial/generics_and_collections/collections/map/operato_and_hash_code.dart';
+// import 'package:flutter_tutorial/generics_and_collections/collections/set/implementation.dart';
+// import 'package:flutter_tutorial/generics_and_collections/generic_types/usage.dart';
+// import 'package:flutter_tutorial/inheritance_and_exceptions/exceptions/good_practices.dart';
 // import 'package:flutter_tutorial/inheritance_and_exceptions/exceptions/on_and_catch.dart';
 // import 'package:flutter_tutorial/inheritance_and_exceptions/the_object_class/comparablet.dart';
 // import 'package:flutter_tutorial/inheritance_and_exceptions/the_object_class/the_object_class.dart';
@@ -20,7 +28,7 @@ void main() {
   // sum();
   // List items = [];
   // List<Person> name = [Person(name: 'nv nga'), Person(name: 'khanh luong')];
-  printProduct();
+  compare();
 }
 // class Person {
 //   final String name;
